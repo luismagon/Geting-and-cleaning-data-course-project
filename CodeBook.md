@@ -34,6 +34,6 @@ There are other files in the zip file that has not been use in this project.
 1. Reading of all the data files needed in the script, and appropiate naming of the columns.
   1.2 Merge of all the test and train sets into one unique dataset.
 2. Removal of all the measure columns that did not contain the exact string "mean()" or "std()".
-3 The values of the activity IDs column are transform into their real names of the activity
-4 Creation of a tidy data set containing the mean of each feature for each subject and activity.
+3. The values of the activity IDs column are transform into their real names of the activity.
+4. Creation of a tidy data set containing the mean of each feature for each subject and activity.
 5. Writting of a txt file whith the tidy data set.
