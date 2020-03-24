@@ -1,15 +1,15 @@
-### Code Book
+## Code Book
 
 This code book describes the files and data used in the course project of Coursera's Getting and cleaning data course.
 
-## Overview
+# Overview
 
 The origin of the data used is from an experiment where 30 volunteers, wearing a smartphone on the waist, performed six diferent activities.
 
 The original description of the data set, including how the experiment was carried out, can be found in http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The dataset used in this project was obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-## Files used
+# Files used
 
 * activity_labels.txt: Names and IDs for each of the 6 activities.
 
@@ -29,7 +29,7 @@ The dataset used in this project was obtained from https://d396qusza40orc.cloudf
 
 There are other files in the zip file that has not been use in this project.
 
-## Design of the R script
+# Design of the R script
 
 1. Reading of all the data files needed in the script, and appropiate naming of the columns.
   1.2 Merge of all the test and train sets into one unique dataset.
