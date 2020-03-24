@@ -54,4 +54,4 @@ meltedDS <-melt(finalDS, id = c("idSubject", "activity"))
 tidyDS <- dcast(meltedDS, idSubject + activity ~ variable, mean)
 
 # write the tidy data set to a file
-write.csv(tidyDS, "./Data/UCI HAR Dataset/tidy.csv", row.names=FALSE)
+write.table(tidyDS, "./Data/UCI HAR Dataset/tidy.txt", row.names=FALSE)
