@@ -1,6 +1,7 @@
-## You should create one R script called run_analysis.R that does the following.
+## Getting and cleaning data Course Project
 
-library(reshape2)       # It's gonna be neccesary in the last step.
+# This library is gonna be neccesary in the last step.
+library(reshape2)
 
 ## 1. Merges the training and the test sets to create one data set.
 
@@ -16,7 +17,6 @@ y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
 subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 # Add column names
-
 names(X_test) <- features[, 2]
 names(y_test) <- "idActivity"
 names(subject_test) <- "idSubject"
