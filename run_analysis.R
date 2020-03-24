@@ -5,15 +5,15 @@ library(reshape2)       # It's gonna be neccesary in the last step.
 ## 1. Merges the training and the test sets to create one data set.
 
 # Read data
-activity_labels <- read.table("./Data/UCI HAR Dataset/activity_labels.txt")
-features <- read.table("./Data/UCI HAR Dataset/features.txt")
+activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
+features <- read.table("./UCI HAR Dataset/features.txt")
 
-X_test <- read.table("./Data/UCI HAR Dataset/test/X_test.txt")
-y_test <- read.table("./Data/UCI HAR Dataset/test/y_test.txt")
-subject_test <- read.table("./Data/UCI HAR Dataset/test/subject_test.txt")
-X_train <- read.table("./Data/UCI HAR Dataset/train/X_train.txt")
-y_train <- read.table("./Data/UCI HAR Dataset/train/y_train.txt")
-subject_train <- read.table("./Data/UCI HAR Dataset/train/subject_train.txt")
+X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
+y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
+subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+X_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
+y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
+subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 # Add column names
 
